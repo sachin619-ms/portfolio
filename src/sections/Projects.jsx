@@ -13,7 +13,7 @@ const projects = [
     image: Project1,
     tags: ["React", "Tailwindcss", "Framer Motion"],
     link: "https://infohr-solutions.com/",
-    github: "#",
+    github: "https://github.com/sachin619-ms/infohr-solutions",
   },
   {
     title: "E-Commerce Platform",
