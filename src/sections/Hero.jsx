@@ -8,7 +8,8 @@ import {
   Download,
 } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
-
+import HeroImg from "@/assets/images/hero-bg.jpg";
+import ProfileImg from "@/assets/images/profile.jfif";
 const skills = [
   "React",
   "Next.js",
@@ -36,7 +37,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.jpg"
+          src={HeroImg}
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
@@ -112,7 +113,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile.jfif"
+                  src={ProfileImg}
                   alt="Pedro Machado"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
