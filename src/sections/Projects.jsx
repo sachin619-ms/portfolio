@@ -98,7 +98,8 @@ export const Projects = () => {
                   </a>
                   <a
                     href={project.github}
-                    className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
+                    className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                    target="_blank">
                     <Github className="w-5 h-5" />
                   </a>
                 </div>
